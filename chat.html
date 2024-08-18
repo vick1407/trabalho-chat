@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Online</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-white text-dark">
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Salas <span class="sr-only">(atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="salasperso.html">Salas Personalizadas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Criar uma Sala</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Salas Favoritas</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="principal mt-4">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+            <h1 class="text-white">ENEM</h1>
+        </div>
+        <div class="chat-messages">
+            <div class="message">
+                <strong>João:</strong>
+                <span>Olá pessoal!</span>
+                <div class="message-time">10:30</div>
+            </div>
+            <div class="message">
+                <strong>Maria:</strong>
+                <span>Oi João, tudo bem?</span>
+                <div class="message-time">10:31</div>
+            </div>
+            <div class="message">
+                <strong>Carlos:</strong>
+                <span>Oi gente!</span>
+                <div class="message-time">10:32</div>
+            </div>
+        </div>
+        <div class="chat-input mt-4">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Digite sua mensagem...">
+                <div class="input-group-append">
+                    <button class="btn btn-primary-enviar" type="button">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

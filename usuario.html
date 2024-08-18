@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Online</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-white text-dark">
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Salas <span class="sr-only">(atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="salasperso.html">Salas Personalizadas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Criar uma Sala</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Salas Favoritas</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="principal mt-4">
+        <aside class="usuario-estilo text-center">
+            <img src="img/usuario.png" class="rounded-circle mb-3" alt="Foto do Usuário">
+            <label for="nomeUsuario" class="NomeUser d-block font-weight-bold">Nome:</label>
+            <input type="text" id="nomeUsuario" class="form-control mb-3" value="João Silva">
+            <a href="index.html"><button class="btn btn-danger btn-block">Sair</button></a>
+        </aside>
+        
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

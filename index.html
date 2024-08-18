@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Online</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Link atualizado do Font Awesome -->
+<style>
+    .btn-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    background-color: white;
+    border: none;
+    color: black;
+    margin-bottom: 30px;
+    position: relative; 
+    padding: 15px; 
+    font-weight: bolder;
+    
+}
+</style>
+</head>
+<body class="bg-white text-dark">
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Salas <span class="sr-only">(atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="salasperso.html">Salas Personalizadas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Criar uma Sala</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Salas Favoritas</a>
+                </li>
+            </ul>
+        </div>
+        <a class="nav-link header-usuario" href="usuario.html">
+            <img  src="img/usuario.png" alt="Usuário" style="width: 50px;">
+        </a>
+    </header>
+
+    <main class="principal mt-4">
+        <div class="header-container">
+            <div class="col-md-3 image-container">
+                <a href="usuario.html"><img style="width:21% ;"src="img/usuario.png" alt="Imagem 1"></a>
+                <img src="img/favorita.png" alt="Imagem 2">
+                <img style="width:22%;" src="img/adicionar.png" alt="Imagem 3">
+            </div>
+            <h1 class="text-white">Salas</h1>
+            <div class="search-container">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">
+                            <i class="fas fa-search"></i>
+                        </span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Buscar salas" aria-label="Buscar salas">
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-3">
+                <a href="chat.html"><button class="btn btn-primary btn-block" ><img class="pessoas-img" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/btf3j4lf1h-112%3A191?alt=media&token=f8babe28-9baf-4982-815b-7bd2f98a5207" alt="" >ENEM<img class="cadeado" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/vmksy0vvaf-112%3A188?alt=media&token=09d2bc7a-561a-44dc-88b6-25770386f871" alt=""></button></a>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block"> <img class="pessoas-img" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/btf3j4lf1h-112%3A191?alt=media&token=f8babe28-9baf-4982-815b-7bd2f98a5207" alt="">Dietas<img class="cadeado" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/vmksy0vvaf-112%3A188?alt=media&token=09d2bc7a-561a-44dc-88b6-25770386f871" alt=""></button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block"> <img class="pessoas-img" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/btf3j4lf1h-112%3A191?alt=media&token=f8babe28-9baf-4982-815b-7bd2f98a5207" alt="">Siticom</button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block"> <img class="pessoas-img" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/btf3j4lf1h-112%3A191?alt=media&token=f8babe28-9baf-4982-815b-7bd2f98a5207" alt="">Viajar<img class="cadeado" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/vmksy0vvaf-112%3A188?alt=media&token=09d2bc7a-561a-44dc-88b6-25770386f871" alt=""></button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block"> <img class="pessoas-img" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/btf3j4lf1h-112%3A191?alt=media&token=f8babe28-9baf-4982-815b-7bd2f98a5207" alt="">ENEM</button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block"> <img class="pessoas-img" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/btf3j4lf1h-112%3A191?alt=media&token=f8babe28-9baf-4982-815b-7bd2f98a5207" alt="">Dietas<img class="cadeado" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/vmksy0vvaf-112%3A188?alt=media&token=09d2bc7a-561a-44dc-88b6-25770386f871" alt=""></button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block"> <img class="pessoas-img" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/btf3j4lf1h-112%3A191?alt=media&token=f8babe28-9baf-4982-815b-7bd2f98a5207" alt="">Siticom</button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block"> <img class="pessoas-img" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/btf3j4lf1h-112%3A191?alt=media&token=f8babe28-9baf-4982-815b-7bd2f98a5207" alt="">Viajar</button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block"> <img class="pessoas-img" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/btf3j4lf1h-112%3A191?alt=media&token=f8babe28-9baf-4982-815b-7bd2f98a5207" alt="">ENEM</button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block"> <img class="pessoas-img" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/btf3j4lf1h-112%3A191?alt=media&token=f8babe28-9baf-4982-815b-7bd2f98a5207" alt="">Dietas</button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block"> <img class="pessoas-img" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/btf3j4lf1h-112%3A191?alt=media&token=f8babe28-9baf-4982-815b-7bd2f98a5207" alt="">Siticom</button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block"> <img class="pessoas-img" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/btf3j4lf1h-112%3A191?alt=media&token=f8babe28-9baf-4982-815b-7bd2f98a5207" alt="">Viajar<img class="cadeado" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/vmksy0vvaf-112%3A188?alt=media&token=09d2bc7a-561a-44dc-88b6-25770386f871" alt=""></button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block"> <img class="pessoas-img" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/btf3j4lf1h-112%3A191?alt=media&token=f8babe28-9baf-4982-815b-7bd2f98a5207" alt="">ENEM</button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block"> <img class="pessoas-img" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/btf3j4lf1h-112%3A191?alt=media&token=f8babe28-9baf-4982-815b-7bd2f98a5207" alt="">ENEM<img class="cadeado" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/vmksy0vvaf-112%3A188?alt=media&token=09d2bc7a-561a-44dc-88b6-25770386f871" alt=""></button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block"> <img class="pessoas-img" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/btf3j4lf1h-112%3A191?alt=media&token=f8babe28-9baf-4982-815b-7bd2f98a5207" alt="">ENEM</button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block"> <img class="pessoas-img" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/btf3j4lf1h-112%3A191?alt=media&token=f8babe28-9baf-4982-815b-7bd2f98a5207" alt="">ENEM<img class="cadeado" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/vmksy0vvaf-112%3A188?alt=media&token=09d2bc7a-561a-44dc-88b6-25770386f871" alt=""></button>
+            </div>
+           
+        </div>
+        
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

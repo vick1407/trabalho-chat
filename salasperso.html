@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Online</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+    </style>
+</head>
+<body class="bg-white text-dark">
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Salas</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="salasperso.html">Salas Personalizadas <span class="sr-only">(atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Criar uma Sala</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Salas Favoritas</a>
+                </li>
+            </ul>
+        </div>
+        <a class="nav-link header-usuario" href="usuario.html">
+            <img src="img/usuario.png" alt="Usuário" style="width: 50px;">
+        </a>
+    </header>
+
+    <main class="principal mt-4">
+        <div class="header-container">
+            <div class="col-md-3 image-container">
+                <a href="usuario.html"><img style="width:21%;" src="img/usuario.png" alt="Imagem 1"></a>
+                <img src="img/favorita.png" alt="Imagem 2">
+                <img style="width:22%;" src="img/adicionar.png" alt="Imagem 3">
+            </div>
+            <h1 class="text-white">Salas Personalizadas</h1>
+            <div class="search-container">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">
+                            <i class="fas fa-search"></i>
+                        </span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Buscar salas" aria-label="Buscar salas">
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block btn-custom">
+                    <img class="perso-imagens" src="img/futebol.png" alt="">
+                    <span>Esportes</span>
+                </button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block btn-custom">
+                    <img class="perso-imagens" src="img/culinaria.png" alt="">
+                    <span>Culinária</span>
+                </button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block btn-custom">
+                    <img class="perso-imagens" src="img/jogos.png" alt="">
+                    <span>Jogos</span>
+                </button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block btn-custom">
+                    <img class="perso-imagens" src="img/turismo.png" alt="">
+                    <span>Turismo</span>
+                </button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block btn-custom">
+                    <img class="perso-imagens" src="img/estudos.png" alt="">
+                    <span>Estudos</span>
+                </button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block btn-custom">
+                    <img class="perso-imagens" src="img/tv.png" alt="">
+                    <span>TV</span>
+                </button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block btn-custom">
+                    <img class="perso-imagens" src="img/musica.png" alt="">
+                    <span>Música</span>
+                </button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block btn-custom">
+                    <img class="perso-imagens" src="img/politica.png" alt="">
+                    <span>Política</span>
+                </button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary btn-block btn-custom">
+                    <img class="perso-imagens" src="img/cinema.png" alt="">
+                    <span>Cinema</span>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
